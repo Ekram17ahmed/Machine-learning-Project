@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Custom%20Scratch%20Build-success)](#)
 [![Dataset](https://img.shields.io/badge/Dataset-OASIS%20Brain%20Imaging-orange)](https://www.oasis-brains.org/)
-[![Dataset](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers?)
+[![Dataset](https://img.shields.io/badge/Dataset-OASIS%20Brain%20Imaging-orange)](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers?)
 
 > **An end-to-end clinical data science project engineering Random Forest, Logistic Regression, and Linear SVM classifiers entirely from scratch to diagnose Alzheimer's Disease from structural MRI volumetric data.**
 
