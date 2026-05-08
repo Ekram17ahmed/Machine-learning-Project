@@ -29,10 +29,9 @@ This project eschews standard pre-compiled ML libraries (like `scikit-learn`'s m
 Alzheimer's Disease physically alters the structure of the brain, most notably causing severe atrophy (shrinkage) in the cerebral cortex and hippocampus. Our models are trained to mathematically identify the volumetric differences between a healthy brain and a demented brain.
 
 <div align="center">
-  <figure>
-    <img src="figures/mri.jpeg" alt="Alzheimer's Brain MRI" width="45%">
-    <figcaption><i>Left: Healthy Brain Structure | Right: Brain Structure with Alzheimer's Atrophy</i></figcaption>
-  </figure>
+  <img src="figures/mri.jpeg" alt="Healthy vs Alzheimer's Brain MRI" width="80%">
+  <br><br>
+  <i>Left: Healthy Brain Structure | Right: Brain Structure with Alzheimer's Atrophy</i>
 </div>
 
 ---
