@@ -1,4 +1,4 @@
-# 🧠 Alzheimer's Disease Diagnosis via Custom Machine Learning Architectures
+# Alzheimer's Disease Diagnosis via Custom Machine Learning Architectures
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Custom%20Scratch%20Build-success)](#)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Clinical Context](#-clinical-context)
 3. [Data Engineering & The "Leakage" Discovery](#-data-engineering--the-leakage-discovery)
@@ -20,12 +20,12 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 This project eschews standard pre-compiled ML libraries (like `scikit-learn`'s model classes) in favor of building classification algorithms from the ground up using native Python and NumPy calculus. The goal is to predict the presence of Alzheimer's Disease using patient demographics, cognitive test scores (MMSE), and brain shrinkage metrics (nWBV, eTIV) derived from MRI scans.
 
 ---
 
-## 🩺 Clinical Context
+## Clinical Context
 Alzheimer's Disease physically alters the structure of the brain, most notably causing severe atrophy (shrinkage) in the cerebral cortex and hippocampus. Our models are trained to mathematically identify the volumetric differences between a healthy brain and a demented brain.
 
 <div align="center">
@@ -36,7 +36,7 @@ Alzheimer's Disease physically alters the structure of the brain, most notably c
 
 ---
 
-## ⚙️ Data Engineering & The "Leakage" Discovery
+## Data Engineering & The "Leakage" Discovery
 
 **The Dataset:** Data was sourced from the Open Access Series of Imaging Studies (OASIS). To ensure our models generalized well to real-world clinical variance, we merged the OASIS Longitudinal dataset with the OASIS Cross-Sectional dataset (filtered for patients aged 60+).
 
@@ -49,7 +49,7 @@ Alzheimer's Disease physically alters the structure of the brain, most notably c
 
 ---
 
-## 🏗️ Custom Algorithmic Architecture
+## Custom Algorithmic Architecture
 
 We engineered three distinct architectures from scratch:
 
@@ -59,7 +59,7 @@ We engineered three distinct architectures from scratch:
 
 ---
 
-## 📊 Evaluation & Results
+## Evaluation & Results
 
 The non-linear ensemble architecture of the Random Forest outperformed the rigid linear boundaries of the SVM and Logistic Regression, confirming the hypothesis that Alzheimer's brain degradation is highly complex and non-linear.
 
@@ -71,7 +71,7 @@ The non-linear ensemble architecture of the Random Forest outperformed the rigid
 
 ---
 
-## 📈 Visualizations
+## Visualizations and Analysis
 
 ### 1. Random Forest (Top Performer)
 The tree-based architecture successfully drew non-linear decision boundaries, relying heavily on `nWBV` (Normalized Whole Brain Volume) and `MMSE` (Cognitive Score).
@@ -105,7 +105,7 @@ The margin-maximization math successfully drew a stark hyperplane between the cl
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```text
 ├── dataset/
 │   ├── raw/                      # Original OASIS CSV files
@@ -122,3 +122,4 @@ The margin-maximization math successfully drew a stark hyperplane between the cl
 │   ├── model_LogisticRegression.ipynb   # Custom log-loss gradient descent
 │   └── model_SVM.ipynb                  # Custom hinge-loss optimization
 └── README.md
+
