@@ -30,7 +30,7 @@ Alzheimer's Disease physically alters the structure of the brain, most notably c
 
 <div align="center">
   <figure>
-    <img src="figures/mrir.jpeg" alt="Alzheimer's Brain MRI" width="45%">
+    <img src="figures/mri.jpeg" alt="Alzheimer's Brain MRI" width="45%">
     <figcaption><i>Left: Healthy Brain Structure | Right: Brain Structure with Alzheimer's Atrophy</i></figcaption>
   </figure>
 </div>
